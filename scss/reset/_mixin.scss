@@ -1,0 +1,20 @@
+@mixin flex-padding {
+    display: flex;
+    padding: 10px;
+}
+
+@mixin sobre-cinema {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    background-position: center;
+    height: auto;
+    background-size: cover;
+}
+
+@mixin auto-block {
+    height: auto;
+    display: block;
+}

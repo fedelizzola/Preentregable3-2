@@ -1,0 +1,32 @@
+/* FOOTER */
+
+footer {
+    grid-area: footer;
+}
+
+footer img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    @include flex-padding;
+}
+
+.footer-content {
+    gap: 10px;
+    @include flex-padding;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}

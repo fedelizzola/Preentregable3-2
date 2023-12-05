@@ -1,0 +1,47 @@
+/* MAIN */
+
+.peliculashorizontal {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card .btn-primary:hover {
+    background-color: black; /* Color verde más oscuro al pasar el ratón */
+    border-color: white; /* Puedes ajustar el color del borde al pasar el ratón si es necesario */
+}
+
+
+.sobreeldirector {
+    @include sobre-cinema;
+}
+
+.cinemadridpresenta {
+    @include sobre-cinema;
+}
+
+.ubicacion {
+    justify-content: space-around;
+    max-width: 100%;
+    flex-wrap: wrap;
+    @include flex-padding;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}

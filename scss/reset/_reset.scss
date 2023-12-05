@@ -1,0 +1,25 @@
+$black: #000000;
+$blue1: #051122;
+$whitel: #f0f8ff;
+$white: #ffffff;
+$lightblue: #add8e6;
+$blue2: #2a8bac;
+$blue3: #2d2d92;
+$blue4: #2f429b;
+
+html {
+    padding: 0 80px;
+    background-color: $black;
+}
+body{
+    background-color: $black;
+}
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14pt;
+    background-color: $blue1;
+    color: $whitel;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

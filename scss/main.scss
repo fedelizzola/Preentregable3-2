@@ -1,0 +1,12 @@
+//Reset
+@import "./reset/reset";
+@import "./reset/mixin";
+@import "./reset/vars";
+//debería agregar aquí grid
+
+@import "./header";
+@import "./prin";
+@import "./prom";
+@import "./prox";
+@import "./footer";
+@import "./mq";

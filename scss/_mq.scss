@@ -1,0 +1,45 @@
+/* MEDIA QUERIES - Desktop a mobile max-width */
+@media (max-width: 1020px) {
+    body {
+        background-color: rgb(42, 139, 172);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(45, 45, 146);
+    }
+    html{
+        padding: 0px;
+    }
+    header {
+        flex-direction: column;
+    }
+    iframe {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+	body {
+        background-color: rgb(47, 66, 155);
+    }
+    
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+    
+    .container-card {
+        flex-direction: column;
+    } 
+    
+    .card {
+        max-width: 100%;
+    }
+    
+    footer{
+    flex-direction: column;
+    }
+}

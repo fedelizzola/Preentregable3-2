@@ -1,11 +1,10 @@
 @charset "UTF-8";
 html {
   padding: 0 80px;
-  background-color: #000000;
 }
 
 body {
-  background-color: #000000;
+  background-color: #051122;
 }
 
 * {
@@ -128,6 +127,8 @@ li {
 /* FOOTER */
 footer {
   grid-area: footer;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgb(2, 0, 36) 0%, rgb(0, 0, 0) 78%, rgb(5, 17, 34) 100%);
 }
 
 footer img {

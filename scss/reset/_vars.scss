@@ -6,3 +6,32 @@ $lightblue: #add8e6;
 $blue2: #2a8bac;
 $blue3: #2d2d92;
 $blue4: #2f429b;
+
+$redes:(
+    //red       color
+    instagram: #405DE6,
+    youtube: #ff0000
+);
+
+@each $red, $color in $redes {
+    .redes__#{$red}{
+        background-color: $color;
+    }
+}
+
+$fontsize-mood: (
+// mood    size
+	uno: 50px,
+	dos: 20px,
+);
+
+@each $mood, $size in $fontsize-mood{
+	.size-#{$mood}{
+		font-size: $size;
+}
+}
+
+
+
+
+

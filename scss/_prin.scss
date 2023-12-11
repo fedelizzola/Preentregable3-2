@@ -1,10 +1,18 @@
 /* MAIN */
 
+h1, h2, h3, h4, h5, h6 {
+    font-size: map-get($fontsize-mood, uno); 
+    text-align: center; 
+  }
+
 .peliculashorizontal {
     width: 100%;
     height: auto;
-    display: block;
-}
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: map-get($fontsize-mood, uno);
+  }
 
 .container-card {
     display: flex;
@@ -20,18 +28,21 @@
 }
 
 .card .btn-primary:hover {
-    background-color: black; /* Color verde más oscuro al pasar el ratón */
-    border-color: white; /* Puedes ajustar el color del borde al pasar el ratón si es necesario */
+    background-color: black; 
+    border-color: white; 
 }
-
 
 .sobreeldirector {
     @include sobre-cinema;
-}
+    font-size: map-get($fontsize-mood, uno);
+    text-align: center; 
+  }
 
 .cinemadridpresenta {
     @include sobre-cinema;
-}
+    font-size: map-get($fontsize-mood, uno);
+    text-align: center;
+  }
 
 .ubicacion {
     justify-content: space-around;

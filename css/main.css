@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   padding: 0 80px;
 }
@@ -15,6 +14,22 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.redes__instagram {
+  background-color: #405DE6;
+}
+
+.redes__youtube {
+  background-color: #ff0000;
+}
+
+.size-uno {
+  font-size: 50px;
+}
+
+.size-dos {
+  font-size: 20px;
 }
 
 /* HEADER */
@@ -50,10 +65,18 @@ li {
 }
 
 /* MAIN */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 50px;
+  text-align: center;
+}
+
 .peliculashorizontal {
   width: 100%;
   height: auto;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
 }
 
 .container-card {
@@ -70,8 +93,8 @@ li {
 }
 
 .card .btn-primary:hover {
-  background-color: black; /* Color verde más oscuro al pasar el ratón */
-  border-color: white; /* Puedes ajustar el color del borde al pasar el ratón si es necesario */
+  background-color: black;
+  border-color: white;
 }
 
 .sobreeldirector {
@@ -83,6 +106,8 @@ li {
   background-position: center;
   height: auto;
   background-size: cover;
+  font-size: 50px;
+  text-align: center;
 }
 
 .cinemadridpresenta {
@@ -94,6 +119,8 @@ li {
   background-position: center;
   height: auto;
   background-size: cover;
+  font-size: 50px;
+  text-align: center;
 }
 
 .ubicacion {

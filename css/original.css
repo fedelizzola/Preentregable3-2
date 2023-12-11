@@ -71,8 +71,8 @@ li {
 }
 
 .card .btn-primary:hover {
-    background-color: black; /* Color verde más oscuro al pasar el ratón */
-    border-color: white; /* Puedes ajustar el color del borde al pasar el ratón si es necesario */
+    background-color: black; 
+    border-color: white; 
 }
 
 
